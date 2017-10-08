@@ -1,0 +1,29 @@
+<html>
+  
+  <head>
+    <title>My JavaScript Page</title>
+  </head>
+  
+  <body>
+    <p>paragraph 1</p>
+    <p>paragraph 2</p>
+    <p>paragraph 3</p>
+    
+  </body>
+  
+  <!--<script>-->
+    <script>
+      alert("Click OK to Begin")
+      console.log("Begin now...");
+      var name;
+      name = prompt("What is your name?");
+      document.write("no formatting: " + name);
+      document.write("<h1>heading: " + name + "</h1>");
+      document.write("The title is: " + document.title)
+    
+      var pars = document.getElementsByTagName('p');
+    
+      document.write("</br>");
+      document.write("There are " + pars.length + " paragraphs");
+    </script>
+</html>
